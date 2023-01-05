@@ -51,3 +51,9 @@ function uuidv4() {
 }
 //const bucketName = "3nacfactorio";
 //uploadObject(bucketName, "_autosave10.zip")
+
+while (true) {
+  uploadObjectFolder("3nacfactorio", "/Users/waltergibbons/Documents/awss3backup/saves");
+  //sleep for 100 minutes
+  sleep(100 * 60 * 1000);
+}
